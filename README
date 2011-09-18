@@ -1,1 +1,12 @@
-README
+License:     Apache License Version 2.0
+Authors:     Luiz Correia
+Description: Uma extensão para o Google Chrome das redes sociais e feeds do blog Ubuntu Dicas.
+
+== Instalação ==
+
+Pegue o código fonte com o  Git:
+
+  git clone https://luizcorreia@github.com/luizcorreia/UbuntuDicas.git
+
+Alternativamente, você pode fazer o download de github.com/luizcorreia.
+
