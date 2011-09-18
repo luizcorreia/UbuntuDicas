@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ubuntu dicas - Page</title>
+<link href="style.css" rel="stylesheet"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script src="https://www.google.com/jsapi?key=ABQIAAAArdx35UT-ll0ynPUHZ_aYQxQdtQvdNpN9w_5zqqwi6bJD2FSoqxSX9UQGYmyCpsbc5ig6MQ4cQ8DUVA" type="text/javascript"></script>
+<script type="text/javascript"> 
+    google.load("feeds", "1");
+    function OnLoad() {
+      var feedControl = new google.feeds.FeedControl();
+    
+      feedControl.addFeed("http://ubuntudicas.com.br/blog/feed", "http://ubuntudicas.com.br/");
+    feedControl.setNumEntries("10");
+    feedControl.setLinkTarget(google.feeds.LINK_TARGET_BLANK);
+    
+      feedControl.draw(document.getElementById("content"));
+    }
+    
+    google.setOnLoadCallback(OnLoad);
+    </script>
+<style type="text/css">
+.gfc-resultsHeader {
+  display:none;
+!important
+}
+.gf-title {
+  font-size:17px;
+}
+.gf-author {
+  font-size:12px;
+}
+.gf-spacer {
+  font-size:12px;
+}
+.gf-relativePublishedDate {
+  font-size:12px;
+}
+.gfc-control {
+  margin:auto;
+  margin-top:5px;
+  width:330px;
+}
+.content {
+  width:325px;
+}
+.gf-snippet {
+  margin-top:3px;
+  font-size:15px;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+.gfc-result .gf-title {
+  height: 100%;
+  overflow: visible;
+}
+.gf-result {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#F9F9F9));
+  border: 1px solid #EAEAEA;
+  -webkit-border-radius:5px;
+  padding:5px;
+}
+</style>
+</head>
+<body style="border: 0 none;">
+<div id="content"></div>
+</body>
+</html>

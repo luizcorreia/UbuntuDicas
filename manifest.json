@@ -1,0 +1,9 @@
+{
+ 	"name": "Ubuntu Dicas",
+ 	"version": "0.3",
+ 	"description": "Dicas e Truques para iniciantes em linux e Ubuntu. Como instalar e baixar o Ubuntu",
+	 "browser_action":{
+ 		"default_icon": "favicon.ico",
+	 	"popup": "page-bcf.html"
+}
+}
